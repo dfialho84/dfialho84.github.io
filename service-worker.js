@@ -1,23 +1,6 @@
-importScripts("/precache-manifest.3d49b6fe832fa97cc882955fd6420845.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/precache-manifest.a8c7a81d3c3d43f8c0d1a9e4e2fef85f.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
-/**
- * Welcome to your Workbox-powered service worker!
- *
- * You'll need to register this file in your web app and you should
- * disable HTTP caching for this file too.
- * See https://goo.gl/nhQhGp
- *
- * The rest of the code is auto-generated. Please don't update this file
- * directly; instead, make changes to your Workbox build configuration
- * and re-run your build process.
- * See https://goo.gl/2aRDsh
- */
-
-/*importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
-
-importScripts(
-  "/precache-manifest.8c6333420efe410708791e8fdfda0913.js"
-);*/
+// v1
 
 workbox.core.setCacheNameDetails({prefix: "gwt-brisco"});
 
@@ -27,13 +10,7 @@ workbox.core.setCacheNameDetails({prefix: "gwt-brisco"});
   }
 });*/
 
-/**
- * The workboxSW.precacheAndRoute() method efficiently caches and responds to
- * requests for URLs in the manifest.
- * See https://goo.gl/S9QRab
- */
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
-//self.supressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 self.addEventListener("message", msg => {
