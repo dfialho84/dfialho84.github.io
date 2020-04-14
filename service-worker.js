@@ -1,6 +1,6 @@
-importScripts("/precache-manifest.19df265b47b66af49678c6571b356b01.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/precache-manifest.29a261f435e809dbacd3a021e77d5814.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
-// v1
+// v2
 
 workbox.core.setCacheNameDetails({ prefix: "gwt-brisco" });
 
